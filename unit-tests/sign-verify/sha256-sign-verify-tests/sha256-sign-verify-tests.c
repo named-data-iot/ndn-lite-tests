@@ -20,10 +20,10 @@
 #include "../../test-helpers.h"
 #include "../../print-helpers.h"
 
-#include "../../../ndn-lite/ndn-constants.h"
-#include "../../../ndn-lite/ndn-error-code.h"
-#include "../../../ndn-lite/security/ndn-lite-sha.h"
-#include "../../../ndn-lite/security/ndn-lite-sec-config.h"
+#include "ndn-lite/ndn-constants.h"
+#include "ndn-lite/ndn-error-code.h"
+#include "ndn-lite/security/ndn-lite-sha.h"
+#include "ndn-lite/security/ndn-lite-sec-config.h"
 
 #define TEST_HASH_BUFFER_LEN 500
 

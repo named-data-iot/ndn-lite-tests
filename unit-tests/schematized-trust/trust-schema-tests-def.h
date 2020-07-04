@@ -16,9 +16,9 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-#include "../../ndn-lite/ndn-error-code.h"
-#include "../../ndn-lite/encode/name.h"
-#include "../../ndn-lite/encode/trust-schema/ndn-trust-schema-rule.h"
+#include "ndn-lite/ndn-error-code.h"
+#include "ndn-lite/encode/name.h"
+#include "ndn-lite/encode/trust-schema/ndn-trust-schema-rule.h"
 
 #define TRUST_SCHEMA_NUM_TESTS 20
 

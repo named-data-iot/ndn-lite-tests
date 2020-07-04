@@ -9,7 +9,7 @@
 
 #include "trust-schema-tests-def.h"
 
-#include "../../ndn-lite/ndn-enums.h"
+#include "ndn-lite/ndn-enums.h"
 
 char *trust_schema_test_names[TRUST_SCHEMA_NUM_TESTS] = {
   "test_trust_schema_pattern_left_wildcards_match",

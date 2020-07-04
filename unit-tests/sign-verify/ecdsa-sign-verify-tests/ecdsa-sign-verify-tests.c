@@ -20,11 +20,11 @@
 #include "../../test-helpers.h"
 #include "../../print-helpers.h"
 
-#include "../../../ndn-lite/ndn-constants.h"
-#include "../../../ndn-lite/ndn-enums.h"
-#include "../../../ndn-lite/ndn-error-code.h"
-#include "../../../ndn-lite/security/ndn-lite-sec-utils.h"
-#include "../../../ndn-lite/security/ndn-lite-ecc.h"
+#include "ndn-lite/ndn-constants.h"
+#include "ndn-lite/ndn-enums.h"
+#include "ndn-lite/ndn-error-code.h"
+#include "ndn-lite/security/ndn-lite-sec-utils.h"
+#include "ndn-lite/security/ndn-lite-ecc.h"
 
 #define TEST_ENCODER_BUFFER_LEN 500
 #define TEST_NUM_NAME_COMPONENTS 5

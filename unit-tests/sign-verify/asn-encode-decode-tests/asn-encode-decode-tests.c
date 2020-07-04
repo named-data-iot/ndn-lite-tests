@@ -19,9 +19,9 @@
 #include "../../test-helpers.h"
 #include "../../print-helpers.h"
 
-#include "../../../ndn-lite/ndn-error-code.h"
-#include "../../../ndn-lite/security/ndn-lite-sec-config.h"
-#include "../../../ndn-lite/security/ndn-lite-sec-utils.h"
+#include "ndn-lite/ndn-error-code.h"
+#include "ndn-lite/security/ndn-lite-sec-config.h"
+#include "ndn-lite/security/ndn-lite-sec-utils.h"
 
 static const char *_current_test_name;
 static bool _all_function_calls_succeeded = true;

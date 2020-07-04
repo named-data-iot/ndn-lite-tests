@@ -18,13 +18,13 @@
 #include "../test-helpers.h"
 #include "../print-helpers.h"
 
-#include "../../ndn-lite/encode/name.h"
-#include "../../ndn-lite/ndn-error-code.h"
-#include "../../ndn-lite/app-support/ndn-trust-schema.h"
-#include "../../ndn-lite/encode/trust-schema/ndn-trust-schema-pattern-component.h"
-#include "../../ndn-lite/encode/ndn-rule-storage.h"
+#include "ndn-lite/encode/name.h"
+#include "ndn-lite/ndn-error-code.h"
+#include "ndn-lite/app-support/ndn-trust-schema.h"
+#include "ndn-lite/encode/trust-schema/ndn-trust-schema-pattern-component.h"
+#include "ndn-lite/encode/ndn-rule-storage.h"
 
-#include "../../ndn-lite/util/re.h"
+#include "ndn-lite/util/re.h"
 #include "../CUnit/CUnit.h"
 
 static const char *_current_test_name;

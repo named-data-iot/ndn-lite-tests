@@ -12,8 +12,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "../../ndn-lite/encode/trust-schema/ndn-trust-schema-rule.h"
-#include "../../ndn-lite/encode/name.h"
+#include "ndn-lite/encode/trust-schema/ndn-trust-schema-rule.h"
+#include "ndn-lite/encode/name.h"
 
 // returns true if all tests passed, false otherwise
 bool run_trust_schema_tests(void);

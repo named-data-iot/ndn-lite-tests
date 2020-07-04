@@ -15,7 +15,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include "../../../ndn-lite/ndn-constants.h"
+#include "ndn-lite/ndn-constants.h"
 
 // returns true if all tests passed, false otherwise
 bool run_asn_encode_decode_tests(void);

@@ -11,7 +11,7 @@
 
 #include "ecdsa-sign-verify-tests-def.h"
 
-#include "../../../ndn-lite/ndn-enums.h"
+#include "ndn-lite/ndn-enums.h"
 
 #include "test-secp256r1-def.h"
 
